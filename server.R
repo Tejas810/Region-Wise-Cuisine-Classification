@@ -1,11 +1,11 @@
-# install.packages("stringr")
-# install.packages("plotly")
-# install.packages("ggplot2")
-# install.packages("reshape2")
-# install.packages("dplyr")
-#install.packages("e1071")
+install.packages("stringr")
+install.packages("plotly")
+install.packages("ggplot2")
+install.packages("reshape2")
+install.packages("dplyr")
+install.packages("e1071")
 
-library("e1071")
+library(e1071)
 library(dplyr)
 library(reshape2)
 library(plotly)
@@ -13,8 +13,7 @@ library(ggplot2)
 library(stringr)
 library(DT)
 
-
-d<-data.frame(read.csv("D:\\TEJAS\\R Files\\df.csv"))
+d<-data.frame(read.csv("D:\\Kunal\\IndianFood.csv"))
 
 d<-replace(d,d==-1,NA)
 d<- na.omit(d)
