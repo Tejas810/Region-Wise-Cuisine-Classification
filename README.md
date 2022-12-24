@@ -1,4 +1,4 @@
-# Region-Wise-Cuisine-Classification
+# Region-Wise-Cuisine-Classification-In-India
 
 
 Region Wise Cuisine Classification in India is the system which is used to classify the food items eaten by local people in their respective region. 
